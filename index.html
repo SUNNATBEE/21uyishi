@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job-listings-with-filtering</title>
+
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <main class="site-main">
+        <h1 class="visually-hidden">jobs</h1>
+        <section class="main-section">
+            <div class="container">
+                <h2 class="visually-hidden">job-listings</h2>
+                <ul class="jobs-list">
+                    <li class="jobs-item jobs-item-active">
+                        <img class="jobs-item-img" src="./images/photosnap.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">Photosnap</span>
+                                <span class="jobs-item-textbox-box-newtext">NEW!</span>
+                                <span class="jobs-item-textbox-box-featuredtext">FEATURED</span>
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Senior Frontend Developer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">1d ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Full Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">USA only</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Frontend</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Senior</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">HTML</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">CSS</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item jobs-item-active">
+                        <img class="jobs-item-img" src="./images/manage.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">Manage</span>
+                                <span class="jobs-item-textbox-box-newtext">NEW!</span>
+                                <span class="jobs-item-textbox-box-featuredtext">FEATURED</span>
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Fullstack Developer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">1d ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Part Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Remote</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Fullstack</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Midweight</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Python</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">React</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/account.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">Account</span>
+                                <span class="jobs-item-textbox-box-newtext">NEW!</span>
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Junior Frontend Developer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">2d ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Part Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">USA only</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Frontend</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Junior</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">React</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Sass</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/myhome.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">MyHome</span>
+
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Junior Frontend Developer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">5d ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Contract</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">USA only</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Frontend</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Junior</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">CSS</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/loop_studios.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">Loop Studios</span>
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Software Engineer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">1w ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Full Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Worldwide</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Fullstack</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Midweight</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Sass</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Ruby</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/facelt.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">FaceIt</span>
+
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Junior Backend Developer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">2w ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Full Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">UK only</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Backend</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Junior</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Ruby</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">RoR</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/shortly.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">Shortly</span>
+
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Junior Developer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">2w ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Full Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Worldwide</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Frontend</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Junior</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">HTML</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Sass</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/insure.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">Insure</span>
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Junior Frontend Developer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">2w ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Full Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">USA only</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Frontend</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Junior</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Vue</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Sass</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/eyecam.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">Eyecam Co.</span>
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Full Stack Engineer</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">3w ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Full Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Worldwide</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Fullstack</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Midweight</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Django</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Python</button>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="jobs-item">
+                        <img class="jobs-item-img" src="./images/air_filter.svg" alt="image">
+                        <div class="jobs-item-textbox">
+                            <div class="jobs-item-textbox-box">
+                                <span class="jobs-item-textbox-box-text">The Air Filter Company</span>
+                            </div>
+                            <h3 class="jobs-item-textbox-text">Front-end Dev</h3>
+                            <ul class="jobs-item-textbox-list">
+                                <li class="jobs-item-textbox-item">
+                                    <time class="jobs-item-textbox-item-time" datetime="2022-07-11 16:27">1mo ago</time>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Part Time</p>
+                                </li>
+                                <li class="jobs-item-textbox-item">
+                                    <p class="jobs-item-textbox-item-description">Worldwide</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="jobs-item-list">
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Frontend</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Junior</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">React</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">Sass</button>
+                            </li>
+                            <li class="jobs-item-item">
+                                <button class="jobs-item-item-button" type="button">JavaScript</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
